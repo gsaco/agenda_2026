@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# data artifacts
+data/
+outputs/
+dist/
+logs/
+
+# local env
+.env
+.venv/
+.venv*/
+
+# os
+.DS_Store
+.ipynb_checkpoints/

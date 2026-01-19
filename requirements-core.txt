@@ -1,0 +1,17 @@
+pandas
+numpy
+pyarrow
+pydantic
+ruamel.yaml
+matplotlib
+geopandas
+shapely
+pyogrio
+rasterio
+rioxarray
+linearmodels
+statsmodels
+scikit-learn
+scipy
+requests
+openpyxl

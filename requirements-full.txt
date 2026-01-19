@@ -1,0 +1,6 @@
+-r requirements-core.txt
+pandera
+libpysal
+esda
+pysal
+jupytext

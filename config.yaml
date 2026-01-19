@@ -1,0 +1,98 @@
+project:
+  name: agenda_2026
+  mode: real
+  seed: 123
+  years:
+    start: 2007
+    end: 2018
+  base_year: 2023
+  iae_def: A1
+paths:
+  data_dir: data
+  raw_dir: data/raw
+  staging_dir: data/staging
+  processed_dir: data/processed
+  geo_dir: data/geo
+  outputs_dir: outputs
+  dist_dir: dist
+  logs_dir: logs
+  manifest: data/manifest.json
+flags:
+  enable_geo: true
+  enable_ntl: false
+  enable_transporte: true
+  enable_mineria: true
+  enable_bosques: true
+  enable_clima: true
+  enable_shocks_macro: true
+  enable_models: true
+  enable_policy: true
+  enable_figures: true
+  enable_paper: true
+ingest:
+  pib_subnacional:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  ubigeo:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  limites:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  poblacion:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  ntl:
+    auto: false
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  transporte:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  mineria:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  bosques:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  clima:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+  bcrp:
+    auto: true
+    path: 
+    version:
+    url:
+    fallback_urls: []
+qc:
+  max_agg_gap_pct: 0.5
+  missing_threshold_pct: 0.02
+  outlier_p: 0.999
+cache:
+  use_cache: true
